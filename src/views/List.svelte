@@ -4,7 +4,7 @@
 
 <div class="players">
   {#each $players as player}
-    <p>{player.name}</p>
-    <p>{player.id}</p>
+    <p>{player.name || 'Unknown'}</p>
+    <p>{player.id || 'Unknown'}</p>
   {/each}
 </div>
