@@ -1,5 +1,6 @@
 <script lang="ts">
   import Home from '../views/Home.svelte';
+  import Navbar from './Navbar.svelte';
   import { Router, Route, Link } from 'svelte-navigator';
   import Functions from '../views/Functions.svelte';
   import List from '../views/List.svelte';
@@ -18,6 +19,7 @@
 
 <Router>
   <div class="box">
+    <Navbar />
     {#each routes as route}
       <Route path={route.path} component={route.component} />
     {/each}
