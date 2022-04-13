@@ -3,9 +3,9 @@
 </script>
 
 <div class="navbar">
-  <Link to="/">Home</Link>
-  <Link to="functions">Functions</Link>
-  <Link to="list">List</Link>
+  <Link to="/">HOME</Link>
+  <Link to="functions">FUNCTIONS</Link>
+  <Link to="list">LIST</Link>
 </div>
 
 <style>
@@ -13,5 +13,8 @@
     display: flex;
     justify-content: center;
     gap: 1em;
+    padding: 0.5em;
+    opacity: 85%;
+    background: linear-gradient(to right, #1488cc, #2b32b2);
   }
 </style>
