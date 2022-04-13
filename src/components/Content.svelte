@@ -29,7 +29,7 @@
 <style>
   .box {
     width: 70vmin;
-    box-shadow: 0px 1px 23px 8px rgba(9, 0, 0, 0.3);
+    filter: drop-shadow(0px 0px 19px rgba(0, 0, 0, 0.59));
     height: 50vmin;
     background-color: rgba(90, 86, 86, 0.623);
     border-radius: 0.5rem;
